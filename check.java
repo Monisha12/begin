@@ -14,9 +14,13 @@ else if(a<0)
 {
 System.out.println("the no is negative);
 }
-else
+else if(a==0)
 {
 System.out.println("the no is zero");
+}
+else
+{
+ System.out.println("the input is not valid");
 }
 }
 }
